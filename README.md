@@ -1,4 +1,4 @@
-# MMAI
+# MMAI 2017: Course project
 
 - The purpose of the course project is to implement a reverb algorithm in **C/C++** language. 
 
