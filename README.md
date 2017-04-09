@@ -1,27 +1,18 @@
 # MMAI
 
-Purpose:
+- The purpose of the course project is to implement a reverb algorithm in C/C++ language. 
 
-- Implement a reverb algorithm in C/C++.
-
-What should the project do:
-- Our program has to:
-  - read wav-files
-  - play them in real time withe reverberation effect on it
+- The program should be able to read wav files and play them in real time with the reverberation effect applied. 
   
-The implementation should have controls for:
-- a dry-wet
-- early reflections
-- a late reverberation size
-- a spectral control (damping or equalizer)
+- The implementation should have controls at least for:
+  - dry-wet
+  - early reflections
+  - late reverberation size
+  - spectral control (like damping or equalizer). 
 
-Our program has to:
-- have a CLI
-- be runnable on at least Linux
+The program should have a **Command Line Interface (CLI)** and should be runnable at least on **Linux**. 
 
-Libraries that have to be used for sound file and audio I/O:
-- libsndfile
-- portaudio
+For sound file and audio I/O use using *libsndfile* and *portaudio* libraries.
 
 # Milestones
 
