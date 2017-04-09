@@ -18,6 +18,6 @@ For sound file and audio I/O use using *libsndfile* and *portaudio* libraries.
 
 Week 15: project plan
 - What have you researched about reverbs yourself?
-Checked all the slides and googled for some basic reverb code examples. Andreas has prior experience with different reverberation from years of playing around with different guitar reverb pedals and multi effects pedals.
+###### Checked all the slides and googled for some basic reverb code examples. Andreas has prior experience with different reverberation from years of playing around with different guitar reverb pedals and multi effects pedals. Other team members are unfamiliar with reverb, but wants to learn more about it.
 - How are you going to implement a reverb? (interface description, base algorithm, etc.) 
 - How will the group work be organized? (Tasks, responsibility, schedule, etc.)
