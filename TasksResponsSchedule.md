@@ -1,15 +1,5 @@
 # Tasks&Responsibilites:
 
-M.Wessman:
-- Coding
-- Research
-- Get basic program to work
-
-K.Le:
-- Coding
-- Research
-- Implement reverb
-
 S.Nyberg:
 - CEO
 - Schedule
@@ -21,6 +11,16 @@ A.Näsman:
 - Coding
 - Testing
 - Quality assurance
+
+M.Wessman:
+- Coding
+- Research
+- Get basic program to work
+
+K.Le:
+- Coding
+- Research
+- Implement reverb
 
 
 # Schedule
