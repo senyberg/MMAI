@@ -29,6 +29,7 @@ A.Näsman:
   - Presentation
   - Deliver MVPs
 - Tuesdays:
+  - Research
 - Wednesdays:
   - Working on code
 - Thursdays:
