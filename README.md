@@ -6,7 +6,7 @@ Purpose:
 
 What should the project do:
 - Our program has to:
-  - read wav-files
+  - ''read wav-files''
   - play them in real time withe reverberation effect on it
   
 The implementation should have controls for:
