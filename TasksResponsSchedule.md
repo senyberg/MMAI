@@ -1,33 +1,37 @@
-# Responsibilites:
+# Tasks&Responsibilites:
 
 M.Wessman:
 - Coding
+- Research
+- Get basic program to work
 
 K.Le:
 - Coding
+- Research
+- Implement reverb
 
 S.Nyberg:
 - CEO
 - Schedule
 - Coding
+- Testing
 
 A.Näsman:
 - CTO
+- Coding
 - Testing
 - Quality assurance
 
 
-# Tasks:
+# Schedule
 
-M. Wessman:
-- Get basic program to work
-
-K. Le:
-- Implement reverb
-
-S.Nyberg:
-- Whip slaves
-
-A. Näsman:
-- Whip slaves
-- Test product
+- Mondays:
+  - Presentation
+  - Deliver MVPs
+- Tuesdays:
+- Wednesdays:
+  - Working on code
+- Thursdays:
+  - Working on code
+- Fridays:
+  - Testing
