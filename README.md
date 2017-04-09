@@ -22,4 +22,4 @@ Week 15: project plan
 - How are you going to implement a reverb? (interface description, base algorithm, etc.)
 ###### Initial plan is to implement the *Schroeder Reverbs* - https://valhalladsp.com/2009/05/30/schroeder-reverbs-the-forgotten-algorithm/.
 ###### The interface - or the GUI - will be created in *Qt* or *Visual Studio*.
-- How will the group work be organized? (Tasks, responsibility, schedule, etc.)
+- How will the group work be organized? ([Tasks, responsibility, schedule](https://github.com/senyberg/MMAI/blob/master/TasksResponsSchedule.md), etc.)
