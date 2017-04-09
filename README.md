@@ -16,9 +16,9 @@ For sound file and audio I/O use using *libsndfile* and *portaudio* libraries.
 
 # Milestones
 
-Week 15: project plan
+Week 15: Project plan
 - What have you researched about reverbs yourself?
-###### Checked all the slides and googled for some basic reverb code examples. Andreas has prior experience with different reverberation from years of playing around with different guitar reverb pedals and multi effects pedals. Other team members are unfamiliar with reverb, but are exited to learn more about it.
+###### Checked all the lecture slides and googled for some basic reverb code examples. Andreas has prior experience with different reverberation from years of playing around with different guitar reverb pedals and multi effects pedals. Other team members are unfamiliar with reverb, but are exited to learn more about it.
 - How are you going to implement a reverb? (interface description, base algorithm, etc.)
 ###### Initial plan is to implement the *Schroeder Reverbs* - https://valhalladsp.com/2009/05/30/schroeder-reverbs-the-forgotten-algorithm/.
 ###### The interface - or the GUI - will be created in *Qt* or *Visual Studio*.
