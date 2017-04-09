@@ -20,5 +20,6 @@ Week 15: project plan
 - What have you researched about reverbs yourself?
 ###### Checked all the slides and googled for some basic reverb code examples. Andreas has prior experience with different reverberation from years of playing around with different guitar reverb pedals and multi effects pedals. Other team members are unfamiliar with reverb, but are exited to learn more about it.
 - How are you going to implement a reverb? (interface description, base algorithm, etc.)
-###### Initial plan is to implement the *Schroeder Reverbs* https://valhalladsp.com/2009/05/30/schroeder-reverbs-the-forgotten-algorithm/. The interface - or the GUI - will be created in Qt or Visual Studio.
+###### Initial plan is to implement the *Schroeder Reverbs* https://valhalladsp.com/2009/05/30/schroeder-reverbs-the-forgotten-algorithm/.
+###### The interface - or the GUI - will be created in Qt or Visual Studio.
 - How will the group work be organized? (Tasks, responsibility, schedule, etc.)
