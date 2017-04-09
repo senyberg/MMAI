@@ -26,12 +26,6 @@ Libraries that have to be used for sound file and audio I/O:
 # Milestones
 
 Week 15: project plan
-- What have we researched about the reverbs?
-- How will we implement a reverb?
-- interface description
-- base algorithm
-
-How will we share the work between us?
-- tasks
-- responsability
-- schedule
+- What have you researched about reverbs yourself?
+- How are you going to implement a reverb? (interface description, base algorithm, etc.) 
+- How will the group work be organized? (Tasks, responsibility, schedule, etc.)
