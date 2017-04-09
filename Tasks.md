@@ -1,13 +1,13 @@
 # Tasks:
 
 M.Wessman:
-- EBIN
+- Most worthless
 
 K.Le:
-- Nothing
+- Worthless
 
 S.Nyberg:
 - CEO
 
-bobi:
+A.Näsman:
 - CTO
