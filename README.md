@@ -1,6 +1,6 @@
 # MMAI
 
-- The purpose of the course project is to implement a reverb algorithm in C/C++ language. 
+- The purpose of the course project is to implement a reverb algorithm in **C/C++** language. 
 
 - The program should be able to read wav files and play them in real time with the reverberation effect applied. 
   
