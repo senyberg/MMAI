@@ -23,7 +23,7 @@ Libraries that have to be used for sound file and audio I/O:
 - libsndfile
 - portaudio
 
-#Milestones
+# Milestones
 
 Week 15: project plan
 - What have we researched about the reverbs?
