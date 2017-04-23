@@ -7,6 +7,7 @@
  
 #include "sndfile.h"
 #include "portaudio.h"
+#include "reverb.h"
  
  
  
@@ -18,7 +19,7 @@ typedef struct
 }   
 paTestData;
  
-float *buffer;
+float *buffer, *outbuffer;
  
 #define FRAMES_PER_BUFFER (64)
  
@@ -56,6 +57,7 @@ int main (int argc, char *argv[]){
     char *inputfilename, *outputfilename;
     SF_INFO sfinfo, sfinfo_out;
     SNDFILE *outfile, *infile;
+
     PaStreamParameters outputParameters;
     PaStream *stream;
     PaError err;
@@ -78,11 +80,17 @@ int main (int argc, char *argv[]){
  
     // define infile and outfile
     infile = sf_open(inputfilename, SFM_READ, &sfinfo);
-    memcpy(&sfinfo_out, &sfinfo, sizeof(SF_INFO));
+    memcpy(&sfinfo_out, &sfinfo, sizeof(sfinfo));
     outfile = sf_open(outputfilename, SFM_WRITE, &sfinfo_out);
+
+
+    int samples = sfinfo.samplerate;
+    int channels = sfinfo.channels;
+    int frames = sfinfo.frames;
   
     // allocate memory for buffer and read input
     buffer = malloc(sfinfo.channels * sfinfo.frames * sizeof(float));
+    outbuffer = malloc(sfinfo.channels * sfinfo.frames * sizeof(float));
     if (buffer == NULL) {
         printf("Could not allocate memory for data\n");
         sf_close(infile);
@@ -91,11 +99,15 @@ int main (int argc, char *argv[]){
     sf_readf_float(infile, buffer, sfinfo.frames);
     sf_close(infile);
     data.buffer = sfinfo.frames;
- 
+
+    //apply reverb
+    reverb(buffer, &outbuffer, samples, channels, frames);
+    
     // save to output file
     printf("Saving output to file: %s", outputfilename);
     sfinfo_out.frames = sfinfo.frames;
-    sf_writef_float(outfile, buffer, sfinfo_out.frames);
+    sf_writef_float(outfile, outbuffer, sfinfo_out.frames);
+    sf_write_sync(outfile);
     sf_close(outfile);
  
     // define output parameters
